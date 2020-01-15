@@ -18,7 +18,7 @@ import javax.naming.ldap.InitialLdapContext;
 import javax.naming.ldap.LdapContext;
  
 public class LDAPSAuthentication {
-    private final String URL = "ldaps://ch2windc03p.htichina.net:636/";
+    private final String URL = "ldaps://ch1windc03p.htichina.net:639/";
     private final String BASEDN = "ou=People,dc=example,dc=com";
     private final String FACTORY = "com.sun.jndi.ldap.LdapCtxFactory";
     private LdapContext ctx = null;
