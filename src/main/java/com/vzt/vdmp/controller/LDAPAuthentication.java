@@ -12,7 +12,7 @@ import javax.naming.ldap.InitialLdapContext;
 import javax.naming.ldap.LdapContext;
  
 public class LDAPAuthentication {
-    private final String URL = "ldaps://ch2windc03p.htichina.net:636/";
+    private final String URL = "ldaps://ch45windc03p.htichina.net:639/";
     private final String BASEDN = "CN=VDMP,CN=Users,DC=htichina,DC=net";
     private final String FACTORY = "com.sun.jndi.ldap.LdapCtxFactory";
     private LdapContext ctx = null;
